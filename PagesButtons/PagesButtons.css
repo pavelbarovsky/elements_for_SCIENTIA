@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    font-family: 'Roboto';
+    color: black;
+} 
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+
+.PagesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.PageButton {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.next img {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.PageButton a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.PageButton:nth-last-child(8) {
+    margin-left: 0px;
+} 

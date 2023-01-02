@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    font-family: 'Roboto';
+    color: black;
+} 
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+.kruzhok {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+.avatar {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.ProfileContainer {
+    width: 380px;
+    height: 105px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.Name {
+    width: 260px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.job {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    width: 260px;
+    height: 19px;
+}

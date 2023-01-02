@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    font-family: 'Formular';
+    color: black;
+} 
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 1178px;
+    height: 98px;
+}
+
+.PubName {
+    width: 850px;
+    height: 54.78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 3px;
+}
+
+.Authors {
+    width: 400px;
+    height: 20.26px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+}
+
+.ButtonDownload {
+    width: 40px;
+    height: 40px;
+    background: #1E1BA0;
+    border-radius: 7px;
+    position: absolute;
+    left: 1115px;
+    margin-top: 10.34px;
+}
+
+.ButtonDownload img {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 5.66px;
+    margin-bottom: 5.25px;
+}
+
+.PubType {
+    position: absolute;
+    width: 65px;
+    height: 25.28px;
+
+    margin-top: 62.68px;
+    left: 1024px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    font-variant: small-caps;
+    
+    color: #000000;
+    
+}
+
+.PubDate {
+    margin-top: 62.68px;
+    position: absolute;
+    width: 41px;
+    height: 23.18px;
+    left: 1115px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    font-variant: small-caps;
+    
+    color: #000000;
+}

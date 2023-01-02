@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    font-family: 'Roboto';
+    color: black;
+} 
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+
+inputBar {
+    width: 378px;
+    height: 38px;
+	position:relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+	display: inline-block;
+	border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
